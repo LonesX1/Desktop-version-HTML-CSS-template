@@ -1,0 +1,913 @@
+*, *:before, *:after{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0
+}
+.active{
+    font-weight: 800px;
+    color: #DAA520;
+}
+.nav_link1{
+    color: #DAA520;
+    text-decoration: none;
+    font-size:16px;
+    font-weight: 400;
+    margin: 0 48px 0 0;
+}
+body{
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #3E3F43;
+}
+/* Container   */
+._container{
+    width: 100%;
+    max-width: 1152px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+/* Header   */
+.header_{
+    position: absolute;
+}
+.logo_flower{
+    max-width: 200px;
+    
+}
+.flower{
+    display: flex;
+}
+.logo{
+    letter-spacing: 0.25em;
+    font-size:24px;
+    font-weight: 700;
+    margin-left: 8px;
+}
+.header_menu{
+    display: flex;
+    align-items: center;
+    margin-top: 39px;}
+.header___{
+    width: 100%;
+    height: 800px;
+}
+/* Nav Button   */
+.cont{
+    margin-top: 23px;}
+.nav__link{
+    position: fixed;}
+.nav_link{
+    color: #3E3F43;
+    text-decoration: none;
+    font-size:16px;
+    font-weight: 400;
+    margin: 0 48px 0 0;}
+._border{
+    font-weight: 700;
+    border: 2px solid #3E3F43;
+    border-radius: 8px;
+    padding: 9px 36px 9px 36px;}
+._border:hover{
+    background-color: #3E3F43;
+    color: white;
+    transition: 0.2s}
+.nav_{
+  margin-left: 300px;}
+/* background   */
+.bc_f{
+    z-index: -1;
+    position: absolute;
+    right: 0;
+    margin-top: 165px;}
+.fixed_position{
+    position: fixed;
+    z-index: 1000;}
+.background{
+    z-index: -3;
+    border-radius: 0 0 0 136px;
+    background-color: #F9BDBD;
+    right: 0;
+    position: absolute;
+    width: 100%;
+    max-width: 370px;
+    height: 800px;}
+.big_peta{
+    opacity: 0.3;
+    width: 100%;
+    max-width: 382px;
+    height: 382px;
+    z-index: -2;
+    margin: 400px 248px 0 0;
+    right: 0;
+    position: absolute;
+    display: flex;}
+.petal11{
+    position: absolute;
+    width: 100%;
+    max-width: 181px;
+    height: 159px;
+    border: 1px solid #894242;
+    border-radius: 0 110px;
+    margin-top: 22px;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.15);
+
+}
+.petal21{
+    position: absolute;
+    width: 100%;
+    max-width:  159px;
+    height:  181px;
+    border: 1px solid #894242;
+    border-radius: 110px 0;
+    margin-left: 206px;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.15);}
+.petal31{
+    position: absolute;
+    width: 100%;
+    max-width: 159px ;
+    height: 181px ;
+    border: 1px solid #894242;
+    border-radius: 110px 0 110px 0;
+    margin: 206px 0 0 22px;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.15);
+    
+}
+.petal41{
+    position: absolute;
+    width: 100%;
+    max-width: 181px;
+    height: 159px;
+    border: 1px solid #894242;
+    border-radius: 0 110px 0 110px;
+    margin: 206px 0 0 206px;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.15);
+    
+}
+/* main text on first page   */
+.main_inner{
+    position: absolute;
+    margin-top: 217px;}
+.text_{
+    color: #3E3F43;
+    width: 100%;
+    max-width: 504px;
+    font-size: 36px;
+}
+.text__{
+    margin-top: 16px;
+    font-size: 72px;
+    width: 100;
+    max-width: 504px;
+}
+.text__button{
+    margin-top: 30px;
+}
+.text_button{
+    text-decoration: none;
+    top: 30px;
+    background-color: #DAA520;
+    border-radius: 4px;
+    padding: 14px 23px;
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    
+}
+.text_button:hover{
+    background: #3E3F43;
+    transition: 0.2s;
+}
+
+
+/* Flower in logo   */
+.petal1{
+    border: 1px solid #DAA520;
+    width: 14px;
+    height: 12px;
+    border-radius: 0 8px;
+    margin-top:2px;
+    margin-right: 1px;
+    
+}
+.petal2{
+    border: 1px solid #DAA520;
+    width: 12px;
+    height: 14px;
+    border-radius: 8px 0;
+    margin-left: 2px;
+    margin-top: 1px;
+    
+}
+.petal3{
+    border: 1px solid #DAA520;
+    width: 12px;
+    height: 14px;
+    border-radius: 8px 0;
+    
+}
+.petal4{
+    border: 1px solid #DAA520;
+    width: 14px;
+    height: 12px;
+    border-radius: 0 8px;
+    margin-top: 1px;
+}
+/*---------------------------Page-2--------------------------------*/
+.body{
+    margin: 0 auto;
+    width: 100%;
+}
+.body_text{
+    margin-left: 38px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.body__text{
+    position: absolute;
+    width: 100%;
+    max-width: 1152px;
+}
+.body_text_head{
+    font-size: 36px;
+    font-weight: 700;
+    margin-top: 144px;
+    width: 100%;
+    max-width: 207px;
+}
+.body_text_head1{
+    width: 100%;
+    max-width: 381px;
+    margin-top: 120px;
+    margin-right: 100px;
+    font-size: 72px;
+    font-weight: 800;
+    color: #222222;
+    opacity: 0.1
+}
+.body_info{
+    display: flex;
+    
+}
+.body_line_head{
+    display: inline;
+    width: 100%;
+    height: 2px;
+    background-color: #3E3F43;
+    margin-top: 169px;
+    margin-left: 16px;
+    margin-right: 16px;
+}
+/* Flower in logo   */
+.flower1{    
+    display: flex;
+    margin-top: 154px;
+}
+.petal12{
+    border: 1px solid #897942;
+    width: 14px;
+    height: 12px;
+    border-radius: 0 8px;
+    margin-top:2px;
+    margin-right: 1px;
+    
+}
+.petal22{
+    border: 1px solid #897942;
+    width: 12px;
+    height: 14px;
+    border-radius: 8px 0;
+    margin-left: 2px;
+    margin-top: 1px;
+    
+}
+.petal32{
+    border: 1px solid #897942;
+    width: 12px;
+    height: 14px;
+    border-radius: 8px 0;
+    
+}
+.petal42{
+    border: 1px solid #897942;
+    width: 14px;
+    height: 12px;
+    border-radius: 0 8px;
+    margin-top: 1px;
+}
+/*Main page 2*/
+.body_main_figure{
+     width: 100%;
+    max-width: 280px;
+    height: 400px;
+    background-color: #F7DEA6;
+    border-radius: 0 136px 0 136px;
+    margin-top: 65px;
+    position: absolute;
+    z-index: -1;
+}
+.body_main_figure1{
+    width: 100%;
+    max-width: 388px;
+    height: 306px;
+    margin-top: 147px;
+    margin-left: 38px;
+    position: absolute;
+}
+.body_maint__text{
+    font-size: 36px;
+    font-weight: 800;
+}
+.body_main_text{
+    width: 100%;
+    max-width: 448px;
+    height: 98px;
+    position: absolute;
+    margin: 144px 0 0 604px;
+    
+}
+.text1_{
+    font-weight: 600;
+    font-size: 36px;
+}
+.body_maint_text{
+    font-size: 24px;
+    font-weight: 600;
+}
+.body_main_info
+/* Big Petal 2*/
+.big_petal151{
+    opacity: 0.2;
+    width: 100%;
+    max-width: 382px;
+    height: 382px;
+    z-index: -2;
+    position: absolute;
+    display: flex;
+}
+.petal_body1{
+    position: absolute;
+    display: flex;
+    width: 100%;
+    max-width: 181px;
+    height: 159px;
+    border: 1px solid #894242;
+    border-radius: 0 110px;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.15);
+    margin-top: 22px;
+}
+.petal_body12{
+    display: flex;
+    position: absolute;
+    width: 100%;
+    max-width: 159px;
+    height: 181px;
+    border: 1px solid #894242;
+    border-radius: 110px 0;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.15);
+    margin-left: 199px
+}
+.petal_body13{
+    display: flex;
+    position: absolute;
+    width: 100%;
+    max-width: 159px;
+    height: 181px;
+    border: 1px solid #894242;
+    border-radius: 110px 0;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.15);
+    margin-left: 22px;
+    margin-top: 195px;
+}
+.petal_body14{
+    position: absolute;
+    display: flex;
+    width: 100%;
+    max-width: 181px;
+    height: 159px;
+    border: 1px solid #894242;
+    border-radius: 0 110px;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.15);
+    margin-top: 195px;
+    margin-left: 199px;
+}
+.big_petal151{
+    opacity: 0.3;
+    width: 100%;
+    max-width: 382px;
+    height: 382px;
+    z-index: -1;
+    display: flex;
+    margin-top: 319px;
+    margin-left: -168px;
+    position: absolute;
+}
+/*Page3*/
+.page3{
+}
+.page3_img{
+    margin-top: 493px;
+    right: 0;
+    width: 100%;
+    max-width: 287px;
+    height: 394px;
+    position: absolute
+    
+}
+.pg3_text{
+    font-size: 36px;
+    font-weight: 600;
+}
+.pg3_text1{
+    font-size: 36px;
+    font-weight: 800;
+}
+.pg3_text2{
+    font-size: 24px;
+    font-weight: 600;
+}
+.pg3_main_text{
+    position: absolute;
+    margin-top: 620px;
+    width: 100%;
+    max-width: 651px;
+    height: 66px;
+}
+.page_line_head{
+    width: 100%;
+    max-width: 265px;
+    height: 2px;
+    background-color: black;
+    margin-top: 45px;
+    margin-left: 16px
+}
+.page_text_head{
+    font-size: 36px;
+    font-weight: 700;
+    margin-top: 20px;
+    margin-left: 8px;
+}
+.page_text_head1{
+    font-size: 72px;
+    font-weight: 800;
+    width: 100%;
+    max-width: 581px;
+    height: 98px;
+    position: absolute;
+    opacity: 0.1;
+    right: 0;
+}
+
+.pg_body_text{
+    position: relative;
+    display: flex;
+    width: 100%;
+    max-width: 1152px;
+    height: 98px;
+
+}
+.body__text1{
+    width: 100%;
+    max-width: 1152px;
+    margin-top: 972px;
+   
+}
+.page4{
+    width: 100%;
+    max-width: 1152px;
+    position: absolute;
+    
+}
+.flower12{
+    display: flex;
+    margin-top: 30px;
+}
+.img_pg4{
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+position: absolute;
+width: 952px;
+height: 177px;
+    margin-left: 10%;
+}
+.dms_img{
+    margin-top: 88px;
+    width: 100%;
+    max-width: 238px;
+    height: 177px; 
+}
+.images_1{
+    text-align: center;   
+}
+.text_img1{
+    font-size: 24px;
+    font-weight: 700;
+    color: #000000;
+}
+.text_img12{
+    font-size: 24px;
+    font-weight: 700;
+    color: #000000;
+    margin-top: 22px
+}
+.pg4_button{
+    width: 100%;
+    max-width: 211px;
+    height: 50px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #ffffff;
+    background-color: #DAA520;
+    padding: 14px 23px 14px 23px;
+    border-radius: 4px;
+    position: absolute;
+    text-decoration: none;
+}
+.pg4_button:hover{
+    background: #3E3F43;
+    transition: 0.2s;
+}
+.pg4_button_div{
+    margin-top: 270px;
+    text-align: center;
+    margin-right: 12%;
+}
+/*Page 5*/
+.page5{
+    margin-top: 1490px;
+}
+.page_text_head12{
+    font-size: 72px;
+    font-weight: 800;
+    width: 100%;
+    max-width: 465px;
+    height: 98px;
+    position: absolute;
+    opacity: 0.1;
+    right: 0;
+}
+.page_line_head1{
+    width: 100%;
+    max-width: 390px;
+    height: 2px;
+    background-color: black;
+    margin-top: 45px;
+    margin-left: 16px
+}
+.slot_img{
+    width: 100%;
+    max-width: 310px;
+    height: 450px;
+    background-color: #F9BDBD;
+    border-radius: 0 130px;
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+    margin-top: 64px;
+    
+}
+.pg5_img5{
+    position: absolute;
+    z-index: -1;
+    top:calc(50% - 150px);
+}
+.pg5_img4{
+    position: absolute;
+    z-index: -1;
+    top:calc(50% - 120px);
+    left: 22%
+}
+.pg5_img3{
+    position: absolute;
+    z-index: -1;
+    top:calc(50% - 110px);
+    left: 18%
+}
+.pg5_img2{
+    position: absolute;
+    z-index: -1;
+    top:calc(50% - 120px);
+    left: 23%
+}
+.pg5_img1{
+    position: absolute;
+    z-index: -1;
+    top:calc(50% - 80px);
+    left: 9%
+}
+
+.pg5_name_obj{
+    left: 16px;
+    top: 24px;
+    position: absolute;
+    font-size: 24px;
+    font-weight: 800;
+    color: #3e3f45;
+}
+.slot_img:nth-child(1){
+    margin-right: 105px;
+}
+.slot_img:nth-child(2){
+    background-color: #F7DEA6;
+}
+.slot_img:nth-child(3){
+    background-color: #A8DCEC;
+    margin-left: 105px
+}
+.slot_img:nth-child(5){
+    background-color: #F7DEA6;
+    margin-left: 105px
+}
+.pg5_button_style{
+        right: 0;
+    bottom: 0;
+    position: absolute;
+    border: 1px solid black;
+    padding: 8px 18px 7px 19px;
+    border-radius: 4px;
+    margin: 0 16px 24px 0;
+    text-decoration: 0px;
+    color: #3E3F43;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.pg5_button_style:hover{
+    color: white;
+    background-color: #3E3F43;
+    z-index: -1;
+    transition: 0.2;
+}
+.pg5_images_and_figures{
+    max-width: 1152px;
+    width: 100%;
+}
+/* Page 6 */
+.page_text_head13{
+    font-size: 72px;
+    font-weight: 800;
+    width: 100%;
+    max-width: 416px;
+    height: 98px;
+    position: absolute;
+    opacity: 0.1;
+    right: 0;
+
+}
+.page6{
+    margin-top: 120px;
+    height: 489px
+}
+.page6_img_and_figures{
+    margin-top: 65px;
+    display: block;
+}
+.page6_images{
+    float: left;
+    margin-left: 50px;
+}
+.page6_img:nth-child(2){
+    margin-left: 40px;
+}
+.page_figures_with_text{
+    width: 100%;
+    max-width: 384px;
+    height: 280px;
+    border: 1px solid #A8DCEC;
+    border-radius: 0 90px;
+    position: relative;
+}
+.star{
+    margin-left: 16px;
+    margin-top: 54px;
+}
+.fa-star{
+    color: #FFC107;
+    margin-right: 5px;
+}
+.page6_text_in_figures{
+    font-size: 14px;
+    font-weight: 600;
+    max-width: 352px;
+    width: 100%;
+    margin-left: 16px;
+    margin-top: 16px;
+}
+.review{
+    display: flex;
+    width: 100%;
+    max-width: 199px;
+    margin-left: 16px;
+    margin-top: 16px;
+    
+}
+.page6_selfie{
+    border-radius: 60px;
+}
+.review_text{
+    font-size: 12px;
+    font-weight: 600;
+    color: #AFAFAF;
+    max-width: 110px;
+    width: 100%;
+    margin-left: 8px;
+    padding-top: 5px
+}
+.page6_arrow_left{
+    font-size: 14px;
+    font-weight: 600;
+    color: #C4C4C4;
+
+}
+.page6_arrow_right{
+    color: #3E3F43;
+    font-size: 14px;
+    font-weight: 600;
+}
+.page6_arrows{
+    display: flex;
+    width: 100%;
+    max-width: 384px;
+    justify-content: space-between;
+    margin-top: 41px;
+}
+.page6_arrow_left{
+
+}
+page6_arrow_right{
+    
+}
+
+.page6_figures_with_text{
+    position: relative;
+    width: 100%;
+    max-width: 384px;
+    height: 500px;
+    float: right;
+    margin-right: 50px;
+}
+.page_link{
+    font-size: 14px;
+    font-weight: 600;
+    color: #C4C4C4;
+    text-decoration: none;
+    margin-left: 8px;
+}
+.page_link2{
+        font-size: 14px;
+    font-weight: 600;
+    color: #3E3F43;
+    text-decoration: none;
+    margin-right: 8px;
+}
+.page6_line{
+    background-color: #E5E5E5;
+    max-width: 40px;
+    height: 8px;
+    border-radius: 8px;
+    width: 100%;
+    display: inline-block;
+    margin-left: 8px;
+    margin-top: 23px;
+    float: right;
+}
+.page6_line:nth-child(4){
+    background-color: #DAA520;
+}
+footer{
+    position: absolute;
+    background: linear-gradient(180deg, white, #efefef);
+    height: 100vh;
+    width: 100%;
+    z-index: -1;
+    overflow: hidden;
+}
+.text_area{
+    color: #3E3F43;
+    border: 1px solid #DAA520;
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 5px;
+    resize: none;
+    width: 100%;
+    max-width: 355px;
+    height: 40px;
+    outline: none;
+    padding: 9px 0 9px 16px;
+    overflow: hidden;
+    position: absolute;
+    right: 0;
+    margin-right: 93px;
+    margin-top: 10px;
+}
+
+.text_area_button{
+    font-size: 16px;
+    font-weight: 600;
+    color: #ffffff;
+    padding: 9px 24px;
+    background-color: #DAA520;
+    border-radius: 6px;
+    position: absolute;
+    right: 0;
+    margin-top: 10px;
+}
+.footer_first_part{
+    position: absolute;
+    margin-top: 187px;
+}
+.footer1_text{
+    position: absolute;
+    width: 493px;
+    height: 69px;
+}
+.footer_f_text{
+    font-size: 18px;
+    font-weight: 700;
+}
+.footer_s_text{
+    font-size: 16px;
+    font-weight: 400;
+}
+.logo_flower12{
+    position: relative;
+    margin-top: 310px;
+    display: flex;
+}
+.footer_info_lg{
+    color: #8D8D8D;
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 16px;
+}
+.footer_last_img{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    max-width: 430px;
+    height: 400px;
+    
+}
+.footer_second_part{
+    position: absolute;
+    width: 100%; 
+    margin-top: 86px;
+}
+.cegoto_tam{
+    width: 100%;
+    max-width: 709px;
+    position: absolute;
+    margin-top: 25px;
+}
+.footer_text_cego1{
+    color: #333333;
+    font-size: 18px;
+    font-weight: 600;
+}
+.footer_text_cego{
+    font-size: 14px;
+    color: #8d8d8d;
+    font-weight: 400;
+    margin-top: 13px;
+}
+.cegoto{
+    margin-top: 5px;
+    margin-right: 52px;
+    
+}
+
+.all_cegoto{
+    margin-left: 21.7%;
+    display: flex;
+    position: absolute;
+    
+}
+.footer_line_middle{
+    background-color: #8d8d8d;
+    width: 62%;
+    height: 2px;
+    display: flex;
+    position: absolute;
+    margin-top: 280px
+}
+.footer_last_text{
+    font-size: 12px;
+    color: #8d8d8d;
+    font-weight: 600;
+    position: absolute;
+    margin-top: 190px;
+    left: 36%; 
+    
+}
+.footer_button_ls{
+    text-decoration: none;
+    color: #8d8d8d;
+    z-index: 1;
+}
